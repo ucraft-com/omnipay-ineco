@@ -1,5 +1,5 @@
 {
-    "name": "nersesm/omnipay-inecobank",
+    "name": "ucraft-com/omnipay-ineco",
     "type": "library",
     "description": "Ineco gateway for Omnipay payment processing library",
     "keywords": [
@@ -11,14 +11,8 @@
         "inecobank",
         "purchase"
     ],
-    "homepage": "https://github.com/nersesm/omnipay-inecobank",
+    "homepage": "https://github.com/ucraft-com/omnipay-ineco",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Nerses Mehrabyan",
-            "email": "nerses.mehrabyan@betconstruct.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Omnipay\\Inecobank\\": "src/"
