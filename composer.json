@@ -1,0 +1,39 @@
+{
+    "name": "nersesm/omnipay-inecobank",
+    "type": "library",
+    "description": "Ineco gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "inecobank",
+        "purchase"
+    ],
+    "homepage": "https://github.com/nersesm/omnipay-inecobank",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nerses Mehrabyan",
+            "email": "nerses.mehrabyan@betconstruct.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Inecobank\\": "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
+
